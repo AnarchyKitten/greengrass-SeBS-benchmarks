@@ -1,0 +1,13 @@
+../../bin/squiggle,sha256=ZkK4GVQAl_dzVZ_kQPnhr4Kr1jEJEIoUK3xubBuJ54Y,268
+squiggle-0.3.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+squiggle-0.3.1.dist-info/METADATA,sha256=wfDptJERwe-2C8ne67tubrm4sW30GqnD_awh4DnlnKw,3630
+squiggle-0.3.1.dist-info/RECORD,,
+squiggle-0.3.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+squiggle-0.3.1.dist-info/entry_points.txt,sha256=Ek0C632k1OogdGMQORGxgxOPpflYcyRI27-c5HH5BQo,53
+squiggle-0.3.1.dist-info/top_level.txt,sha256=JSBCbdl7BFA8j9QyBnCxKlvOO30jvrv3_U6p-W7Fz9k,9
+squiggle/__init__.py,sha256=JBylxIltbNEfyVGIefFGFjgMhE-3pXLhydeywDKFBQQ,32
+squiggle/__pycache__/__init__.cpython-37.pyc,,
+squiggle/__pycache__/cli.cpython-37.pyc,,
+squiggle/__pycache__/squiggle.cpython-37.pyc,,
+squiggle/cli.py,sha256=SKm4LFLlJsn3XWE_OU9ekwdR08bvDxCJjA2iQLp2knA,11250
+squiggle/squiggle.py,sha256=8l5ZRGBp2ap34woCztqR0aSPKHUPxSXlt30xuG2EnzE,6114

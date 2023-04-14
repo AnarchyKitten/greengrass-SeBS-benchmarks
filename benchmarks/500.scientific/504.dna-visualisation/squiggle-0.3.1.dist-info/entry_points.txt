@@ -1,0 +1,3 @@
+[console_scripts]
+squiggle = squiggle.cli:visualize
+

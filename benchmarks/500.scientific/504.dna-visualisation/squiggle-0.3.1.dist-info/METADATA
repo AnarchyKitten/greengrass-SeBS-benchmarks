@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: squiggle
+Version: 0.3.1
+Summary: DNA Sequence Visualization for Humans.
+Home-page: https://github.com/Benjamin-Lee/squiggle
+Author: Benjamin Lee
+Author-email: benjamindlee@me.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.4.0
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: tqdm
+Requires-Dist: bokeh (>=0.13.0)
+Requires-Dist: numpy
+Requires-Dist: python-box
+Requires-Dist: pyfaidx (>=0.5.4.2)
+
+
+![Logo](https://github.com/Lab41/squiggle/raw/master/images/logo.png)
+
+[![Build Status](https://travis-ci.org/Lab41/squiggle.svg?branch=master)](https://travis-ci.org/Lab41/squiggle)
+[![CodeFactor](https://www.codefactor.io/repository/github/Lab41/squiggle/badge)](https://www.codefactor.io/repository/github/Lab41/squiggle/)
+[![Docs](http://readthedocs.org/projects/squiggle/badge/?version=latest)](http://squiggle.readthedocs.io/en/latest/?badge=latest)
+[![PyPI](https://img.shields.io/pypi/v/squiggle.svg)](https://pypi.org/project/squiggle/)
+
+Squiggle is a two-dimensional DNA sequence visualization library that can turn
+FASTA sequence files like this:
+
+    >lcl|NC_000011.10_cds_NP_000509.1_1 [gene=HBB]
+    ATGGTGCATCTGACTCCTGAGGAGAAGTCTGCCGTTACTGCCCTGTGGGGCAAGGTGAACGTGGATGAAG
+    TTGGTGGTGAGGCCCTGGGCAGGCTGCTGGTGGTCTACCCTTGGACCCAGAGGTTCTTTGAGTCCTTTGG
+    GGATCTGTCCACTCCTGATGCTGTTATGGGCAACCCTAAGGTGAAGGCTCATGGCAAGAAAGTGCTCGGT
+    GCCTTTAGTGATGGCCTGGCTCACCTGGACAACCTCAAGGGCACCTTTGCCACACTGAGTGAGCTGCACT
+    GTGACAAGCTGCACGTGGATCCTGAGAACTTCAGGCTCCTGGGCAACGTGCTGGTCTGTGTGCTGGCCCA
+    TCACTTTGGCAAAGAATTCACCCCACCAGTGCAGGCTGCCTATCAGAAAGTGGTGGCTGGTGTGGCTAAT
+    GCCCTGGCCCACAAGTATCACTAA
+    >lcl|NC_005100.4_cds_NP_150237.1_1 [gene=HBB]
+    ATGGTGCACCTGACTGATGCTGAGAAGGCTGCTGTTAATGGCCTGTGGGGAAAGGTGAACCCTGATGATG
+    TTGGTGGCGAGGCCCTGGGCAGGCTGCTGGTTGTCTACCCTTGGACCCAGAGGTACTTTGATAGCTTTGG
+    GGACCTGTCCTCTGCCTCTGCTATCATGGGTAACCCTAAGGTGAAGGCCCATGGCAAGAAGGTGATAAAC
+    GCCTTCAATGATGGCCTGAAACACTTGGACAACCTCAAGGGCACCTTTGCTCATCTGAGTGAACTCCACT
+    GTGACAAGCTGCATGTGGATCCTGAGAACTTCAGGCTCCTGGGCAACATGATTGTGATTGTGTTGGGCCA
+    CCACCTGGGCAAGGAATTCTCCCCCTGTGCACAGGCTGCCTTCCAGAAGGTGGTGGCTGGAGTGGCCAGT
+    GCCCTGGCTCACAAGTACCACTAA
+
+into gorgeous, interactive visualizations like this:
+
+<p align ="center">
+    <img src="https://github.com/Lab41/squiggle/raw/master/images/HBB_squiggle.png" alt="Human Squiggle" width="750px"/>
+</p>
+
+## Installation
+
+If you don't have Python 3.4 or greater installed, be sure to [get it
+](https://www.python.org/downloads/). To get the current stable version of
+Squiggle, run:
+
+    $ pip install squiggle
+
+Or, alternatively, if you want to get the latest development version:
+
+    $ pip install git+https://github.com/Lab41/squiggle.git
+
+## Usage
+
+Using Squiggle is as easy as:
+
+    $ squiggle your_sequence.fasta
+
+Squiggle has tons of options available to make beautiful, interactive
+visualizations of DNA sequences. To get a full rundown of the various option,
+take look at the documentation [here](https://squiggle.readthedocs.io).
+
+## Citation
+
+To be determined!
+
+

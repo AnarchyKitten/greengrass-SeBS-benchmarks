@@ -1,0 +1,12 @@
+../../bin/faidx,sha256=lPw0jgoeu7EaymJCcviHEhJ1aGI6qzaN-l8oTQrQFRQ,257
+pyfaidx-0.7.2.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+pyfaidx-0.7.2.1.dist-info/LICENSE,sha256=aCxeaeQvKXsw0IPWAsGLBANpa-6vcU_3FPPw2papZTQ,1770
+pyfaidx-0.7.2.1.dist-info/METADATA,sha256=wK42UAPeyWmtE8PXkxmO5swmM6d8033NEWy9mFJqO-M,25323
+pyfaidx-0.7.2.1.dist-info/RECORD,,
+pyfaidx-0.7.2.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+pyfaidx-0.7.2.1.dist-info/entry_points.txt,sha256=m5g1Zn3s32VdUIkwqT_8vpoIWYjL3Y2HfgmZFxzVYwg,43
+pyfaidx-0.7.2.1.dist-info/top_level.txt,sha256=iVMgW58Yltst2Sv5r-QOW-9Nddveuu2Gs81_6vHPpfI,8
+pyfaidx/__init__.py,sha256=7rhH5MDeFE-jORzJL_LcLeu3Ix3eiCkBFqD3jsC1d_E,54037
+pyfaidx/__pycache__/__init__.cpython-37.pyc,,
+pyfaidx/__pycache__/cli.cpython-37.pyc,,
+pyfaidx/cli.py,sha256=rvnIVKkoL1eBC1yRrmJSGDHbWtu-Z6_X4Jar0MMO3Cs,16444
